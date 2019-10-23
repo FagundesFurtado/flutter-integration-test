@@ -1,16 +1,22 @@
-# test_view
+# Integration Test
 
-A new Flutter project.
+A new Flutter project to validate an app using Integration Test.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Clone the repository and get the packages using 
 
-A few resources to get you started if this is your first Flutter project:
+```
+flutter packages get
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Running the Test
+
+You need to start a Emulator or connect a device to start. After that, you can start using the command:
+
+```
+flutter drive --target=test_driver/app.dart
+```
+
+The output will be saved on the folder Screenshots, showing the state of the app before and after each action
